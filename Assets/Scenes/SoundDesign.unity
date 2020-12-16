@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.43940374, g: 0.48773998, b: 0.56797594, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -219,7 +219,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 40765575}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.01, y: 0, z: 0.01}
+  m_LocalPosition: {x: 0.01, y: -9.134, z: 0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 453995982}
@@ -362,6 +362,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Panelka_segment_floor (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424599890803977633, guid: 863c72a95a5353844b6d1b882e15b91d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 863c72a95a5353844b6d1b882e15b91d, type: 3}
@@ -2407,6 +2412,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Panelka_segment_floor (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 424599890803977633, guid: 863c72a95a5353844b6d1b882e15b91d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 863c72a95a5353844b6d1b882e15b91d, type: 3}
 --- !u!4 &883461449 stripped
@@ -2481,6 +2491,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Panelka_segment_floor (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 424599890803977633, guid: 863c72a95a5353844b6d1b882e15b91d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 863c72a95a5353844b6d1b882e15b91d, type: 3}
