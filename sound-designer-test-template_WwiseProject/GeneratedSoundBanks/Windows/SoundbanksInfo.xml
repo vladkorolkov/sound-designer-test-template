@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3334962601">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="2188674581" Name="reverbPanelka" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\reverbPanelka"/>
+			</IncludedAuxBusses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="English(US)" Hash="878502810">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>English(US)\Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="805519418" Name="ambStreet" ObjectPath="\Events\Default Work Unit\ambStreet" MaxAttenuation="6.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="680570568" Language="English(US)">
+							<ShortName>ambStreet.wav</ShortName>
+							<Path>Voices\English(US)\ambStreet_624A7CE0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3833651337" Name="jump" ObjectPath="\Events\Default Work Unit\jump" DurationType="OneShot" DurationMin="0.419735" DurationMax="0.697497">
+					<IncludedMemoryFiles>
+						<File Id="87913239" Language="English(US)">
+							<ShortName>jump.wav</ShortName>
+							<Path>Voices\English(US)\jump_50D71D7B.wem</Path>
+						</File>
+						<File Id="203754262" Language="English(US)">
+							<ShortName>jump.wav</ShortName>
+							<Path>Voices\English(US)\jump_B0DFA2A0.wem</Path>
+						</File>
+						<File Id="500602211" Language="English(US)">
+							<ShortName>jump.wav</ShortName>
+							<Path>Voices\English(US)\jump_BC252635.wem</Path>
+						</File>
+						<File Id="940447910" Language="English(US)">
+							<ShortName>jump.wav</ShortName>
+							<Path>Voices\English(US)\jump_B726707D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="674522502" Name="land" ObjectPath="\Events\Default Work Unit\land" DurationType="OneShot" DurationMin="0.176944" DurationMax="0.364010">
+					<IncludedMemoryFiles>
+						<File Id="379375426" Language="English(US)">
+							<ShortName>land-004.wav</ShortName>
+							<Path>Voices\English(US)\land-004_6232ABBD.wem</Path>
+						</File>
+						<File Id="721362283" Language="English(US)">
+							<ShortName>land-001.wav</ShortName>
+							<Path>Voices\English(US)\land-001_59B5EA92.wem</Path>
+						</File>
+						<File Id="751941393" Language="English(US)">
+							<ShortName>land-003.wav</ShortName>
+							<Path>Voices\English(US)\land-003_B64F286B.wem</Path>
+						</File>
+						<File Id="878848099" Language="English(US)">
+							<ShortName>land-002.wav</ShortName>
+							<Path>Voices\English(US)\land-002_32400503.wem</Path>
+						</File>
+						<File Id="880497147" Language="English(US)">
+							<ShortName>land-005.wav</ShortName>
+							<Path>Voices\English(US)\land-005_90C7E36B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="2188674581" Name="reverbPanelka" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\reverbPanelka"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="35679331" Name="neonLamp" ObjectPath="\Events\Default Work Unit\neonLamp" MaxAttenuation="8.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="350158477" Language="English(US)">
+							<ShortName>neonLampBuzz.wav</ShortName>
+							<Path>Voices\English(US)\neonLampBuzz_DB3BE7A7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="2188674581" Name="reverbPanelka" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\reverbPanelka"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="97952267" Name="pcFootsteps" ObjectPath="\Events\Default Work Unit\pcFootsteps" DurationType="OneShot" DurationMin="0.280379" DurationMax="0.545611">
+					<IncludedMemoryFiles>
+						<File Id="102653792" Language="English(US)">
+							<ShortName>ft_concrete-007.wav</ShortName>
+							<Path>Voices\English(US)\ft_concrete-007_0DBA454C.wem</Path>
+						</File>
+						<File Id="684511553" Language="English(US)">
+							<ShortName>ft_concrete-001.wav</ShortName>
+							<Path>Voices\English(US)\ft_concrete-001_38F3AB23.wem</Path>
+						</File>
+						<File Id="712182687" Language="English(US)">
+							<ShortName>ft_concrete-004.wav</ShortName>
+							<Path>Voices\English(US)\ft_concrete-004_7ECBBD96.wem</Path>
+						</File>
+						<File Id="810613393" Language="English(US)">
+							<ShortName>ft_concrete-005.wav</ShortName>
+							<Path>Voices\English(US)\ft_concrete-005_08DDD80F.wem</Path>
+						</File>
+						<File Id="922239915" Language="English(US)">
+							<ShortName>ft_concrete-002.wav</ShortName>
+							<Path>Voices\English(US)\ft_concrete-002_F5ACE8CB.wem</Path>
+						</File>
+						<File Id="942353491" Language="English(US)">
+							<ShortName>ft_concrete-008.wav</ShortName>
+							<Path>Voices\English(US)\ft_concrete-008_E4CED0EA.wem</Path>
+						</File>
+						<File Id="972764235" Language="English(US)">
+							<ShortName>ft_concrete-003.wav</ShortName>
+							<Path>Voices\English(US)\ft_concrete-003_1C62AF7A.wem</Path>
+						</File>
+						<File Id="1057322099" Language="English(US)">
+							<ShortName>ft_concrete-006.wav</ShortName>
+							<Path>Voices\English(US)\ft_concrete-006_CDC7E7B6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="2188674581" Name="reverbPanelka" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\reverbPanelka"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1842143030" Name="wallaDoor" ObjectPath="\Events\Default Work Unit\wallaDoor" MaxAttenuation="6.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="437939480" Language="English(US)">
+							<ShortName>wallaDoor.wav</ShortName>
+							<Path>Voices\English(US)\wallaDoor_D2B2FD59.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="979765101" Name="win" ObjectPath="\Events\Default Work Unit\win" DurationType="OneShot" DurationMin="5.514830" DurationMax="5.514830">
+					<IncludedMemoryFiles>
+						<File Id="680253373" Language="English(US)">
+							<ShortName>win.wav</ShortName>
+							<Path>Voices\English(US)\win_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1537061029" Name="win2" ObjectPath="\Events\Default Work Unit\win2" DurationType="OneShot" DurationMin="5.205306" DurationMax="5.205306">
+					<IncludedMemoryFiles>
+						<File Id="680253373" Language="English(US)">
+							<ShortName>win.wav</ShortName>
+							<Path>Voices\English(US)\win_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1537061028" Name="win3" ObjectPath="\Events\Default Work Unit\win3" DurationType="OneShot" DurationMin="4.637401" DurationMax="4.637401">
+					<IncludedMemoryFiles>
+						<File Id="680253373" Language="English(US)">
+							<ShortName>win.wav</ShortName>
+							<Path>Voices\English(US)\win_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="437939480" Language="English(US)">
+					<ShortName>wallaDoor.wav</ShortName>
+					<Path>Voices\English(US)\wallaDoor_D2B2FD59.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

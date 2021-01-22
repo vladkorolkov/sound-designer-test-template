@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C82DC4F3-DD86-4BA6-A00C-A0C918FB7397}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{C82DC4F3-DD86-4BA6-A00C-A0C918FB7397}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="playerFootsteps" ID="{6B9AA019-5B86-4E6C-B20B-13276C3C1078}" ShortID="939354707">
+					<PropertyList>
+						<Property Name="GameAuxSendVolume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>15</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{D18531D6-06F0-487F-9AB6-EE363D022316}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="152"/>
+											<Property Name="Min" Type="Real64" Value="-152"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A2F99D43-0AF8-478A-827C-CDF877E91BA2}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-3"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="reverbPanelka" ID="{E64BDD75-5A66-4E25-A05C-5BC43B9101F5}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ft_concrete-001" ID="{680D2342-0552-4A58-9590-307D23C8B49A}" ShortID="181098277">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ft_concrete-001" ID="{BFB387C7-A0AA-4FD9-BE80-E47123FAE5B6}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.330554524840239"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>ft_concrete-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="684511553"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ft_concrete-001" ID="{BFB387C7-A0AA-4FD9-BE80-E47123FAE5B6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ft_concrete-002" ID="{B4FB90F6-0B80-403B-A88D-25E6AB669AB5}" ShortID="351667512">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ft_concrete-002" ID="{D932373C-3812-4F45-868F-430033F59AEE}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.306108998144712"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>ft_concrete-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="922239915"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ft_concrete-002" ID="{D932373C-3812-4F45-868F-430033F59AEE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ft_concrete-003" ID="{56804E36-4687-4BA8-9C71-79857597E30C}" ShortID="179600431">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ft_concrete-003" ID="{D5BC2441-3690-4BBD-9E2D-DAD56B7C4A79}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.492459389816533"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>ft_concrete-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="972764235"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ft_concrete-003" ID="{D5BC2441-3690-4BBD-9E2D-DAD56B7C4A79}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ft_concrete-004" ID="{A9D66A83-B8CF-4780-9597-98AAC2EC5CE8}" ShortID="854332805">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ft_concrete-004" ID="{61730880-FFFC-4EFA-B919-834B9B9E33ED}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.49184250669965"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>ft_concrete-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="712182687"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ft_concrete-004" ID="{61730880-FFFC-4EFA-B919-834B9B9E33ED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ft_concrete-005" ID="{AF4E41CC-AD9E-44C1-B719-6A74DD897C38}" ShortID="250933302">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ft_concrete-005" ID="{BD8CBF9D-C528-4FE3-97C1-AD00B64E9FC7}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.490462275819419"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>ft_concrete-005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="810613393"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ft_concrete-005" ID="{BD8CBF9D-C528-4FE3-97C1-AD00B64E9FC7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ft_concrete-006" ID="{D5AC5131-00A0-4F4A-BEB8-A2B701789668}" ShortID="855130221">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ft_concrete-006" ID="{DC10058B-4284-44A3-9FED-B5E01A2E3146}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.498471552257266"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>ft_concrete-006.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1057322099"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ft_concrete-006" ID="{DC10058B-4284-44A3-9FED-B5E01A2E3146}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ft_concrete-007" ID="{413AC8E5-4BEE-4D72-BDB3-A0B26B4C4EE2}" ShortID="353304182">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ft_concrete-007" ID="{BEBB7C40-6184-4693-B3CE-7823888C0EE0}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.342863350906664"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>ft_concrete-007.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="102653792"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ft_concrete-007" ID="{BEBB7C40-6184-4693-B3CE-7823888C0EE0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ft_concrete-008" ID="{53BA6DA0-21F4-45F1-875A-E1FD121B8ECE}" ShortID="615015978">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>21</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ft_concrete-008" ID="{EF3C75E5-A79C-492D-9C46-A2B8295AF52C}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.499749536178108"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>ft_concrete-008.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="942353491"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ft_concrete-008" ID="{EF3C75E5-A79C-492D-9C46-A2B8295AF52C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="neonLights" ID="{8589D0CF-B29F-4C3B-BC64-5ED75D70DF0E}" ShortID="931674522">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>35</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="neonLamp" ID="{A6A48BEB-8446-4380-9EF1-15792E21B42B}" WorkUnitID="{D363163F-1868-4410-8884-33626A5819AD}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="reverbPanelka" ID="{E64BDD75-5A66-4E25-A05C-5BC43B9101F5}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="neonLampBuzz" ID="{0BBE5BB2-4085-4B9A-8176-B85BA532AA9C}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="17.2200788022065"/>
+							</PropertyList>
+							<Language>English(US)</Language>
+							<AudioFile>neonLampBuzz.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="350158477"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="neonLampBuzz" ID="{0BBE5BB2-4085-4B9A-8176-B85BA532AA9C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ambStreet" ID="{B067AF6C-D000-4F45-8DE7-431CC32BE2D2}" ShortID="563590372">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsVoice" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>59</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ambStreet" ID="{3D302196-D890-4337-A22A-DED9DB538EE3}" WorkUnitID="{D363163F-1868-4410-8884-33626A5819AD}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ambStreet" ID="{15CCA229-D157-492B-800F-0B961137FF17}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="15.2396084525913"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="119.304325481799"/>
+							</PropertyList>
+							<Language>English(US)</Language>
+							<AudioFile>ambStreet.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="680570568"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ambStreet" ID="{15CCA229-D157-492B-800F-0B961137FF17}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="wallaDoor" ID="{D9AD7EF8-05E1-4EA5-A0E4-B5177625C154}" ShortID="378910505">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>22</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsVoice" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>38</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="walla" ID="{35B87B24-11D8-4996-BF71-6AEBA2F0FE0E}" WorkUnitID="{D363163F-1868-4410-8884-33626A5819AD}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="wallaDoor" ID="{F919839E-0832-474C-8D38-1A5785DA9B3B}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="16.5390070921986"/>
+								<Property Name="LoopEnd" Type="Real64" Value="125.602836879433"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>English(US)</Language>
+							<AudioFile>wallaDoor.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="437939480"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="wallaDoor" ID="{F919839E-0832-474C-8D38-1A5785DA9B3B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="jump" ID="{B63581F1-BFC9-4046-A587-6F1909B05445}" ShortID="1039498271">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{B6391785-B92D-4941-AC77-8052A92E3767}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-3"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="jump" ID="{746B8067-3150-46C5-B8E2-54CDCB09C159}" ShortID="280390623">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>27</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>22</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="jump" ID="{542D0303-7B01-4909-80EE-6A0E944C8EA4}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.168442128624499"/>
+										<Property Name="FadeInShape" Type="int16" Value="8"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.127267386071844"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.729915890706164"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>jump.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="500602211"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="jump" ID="{542D0303-7B01-4909-80EE-6A0E944C8EA4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="jump_01" ID="{2AAF755E-44D4-4B3F-A165-DCD7B932A564}" ShortID="479658096">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>27</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>22</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>280</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="jump" ID="{8314771E-C340-4C22-A938-125F58C2A78C}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.129138965278783"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.142240019727355"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.729915890706164"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>jump.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="203754262"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="jump" ID="{8314771E-C340-4C22-A938-125F58C2A78C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="jump_02" ID="{24360A7A-D195-4FCA-85D8-6FA1659A1D45}" ShortID="812162730">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>27</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>22</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-330</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="jump" ID="{98BBC7CA-8539-417C-A464-BBB6456D3CD7}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.153469494968988"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.729915890706164"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>jump.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="87913239"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="jump" ID="{98BBC7CA-8539-417C-A464-BBB6456D3CD7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="jump_03" ID="{15C13AEB-4E16-471C-B3F4-BB6644BD118F}" ShortID="590721780">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>27</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>22</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>610</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="jump" ID="{3066EE44-F754-4C80-9D64-B0E02DFB83FE}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.132882123692661"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.729915890706164"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>jump.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="940447910"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="jump" ID="{3066EE44-F754-4C80-9D64-B0E02DFB83FE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="land" ID="{D45A1074-37C6-401F-8613-53C80AB71EE6}" ShortID="752764397">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>18</Value>
+							</ValueList>
+						</Property>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="reverbPanelka" ID="{E64BDD75-5A66-4E25-A05C-5BC43B9101F5}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="land-001" ID="{5C6C8D44-14E6-4847-BC0D-C6A4CFA3B53C}" ShortID="12384925">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="land-001" ID="{8253625B-5BEB-4687-A2D4-C7278AE4A673}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.364010469436001"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>land-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="721362283"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="land-001" ID="{8253625B-5BEB-4687-A2D4-C7278AE4A673}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="land-002" ID="{F4463699-79B2-4EC5-B4D0-1E12FEB4B374}" ShortID="291896648">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="land-002" ID="{31C6D4A8-C7E4-48AC-B7CF-5F33C4CB89E3}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.260787325174357"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>land-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="878848099"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="land-002" ID="{31C6D4A8-C7E4-48AC-B7CF-5F33C4CB89E3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="land-003" ID="{592E7179-7CE6-4144-80B1-E660D4A3619C}" ShortID="638980277">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="land-003" ID="{9DEAB2C2-F58E-472B-9247-0354CDE48B0D}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.230122867113749"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>land-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="751941393"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="land-003" ID="{9DEAB2C2-F58E-472B-9247-0354CDE48B0D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="land-004" ID="{83ACF882-571D-4ED2-82BC-D491849DBD0B}" ShortID="70328860">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="land-004" ID="{E67DDAD9-1C04-4419-9945-B6A3B89C7ECA}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.176944002187163"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>land-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="379375426"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="land-004" ID="{E67DDAD9-1C04-4419-9945-B6A3B89C7ECA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="land-005" ID="{0F44C4FD-DF70-4EAB-A5BB-4CC98A4A6704}" ShortID="926710030">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="land-005" ID="{B51DED31-657F-4297-8DF8-4E8DA787D8A5}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.218306878306878"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>land-005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="880497147"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="land-005" ID="{B51DED31-657F-4297-8DF8-4E8DA787D8A5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="win01" ID="{46B17D9D-3570-4425-B3EA-2B27CD4D53A7}" ShortID="1011803380">
+					<PropertyList>
+						<Property Name="IsVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="win" ID="{2547415E-1594-4DDB-98D4-2466F07E432F}">
+							<Language>English(US)</Language>
+							<AudioFile>win.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="680253373"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="win" ID="{2547415E-1594-4DDB-98D4-2466F07E432F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="win02" ID="{0FC0440E-BF09-4256-86A0-8B6B9F197E0F}" ShortID="67712666">
+					<PropertyList>
+						<Property Name="IsVoice" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="win" ID="{E1040E47-40B3-463C-BDA9-2D472639BECA}">
+							<Language>English(US)</Language>
+							<AudioFile>win.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="680253373"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="win" ID="{E1040E47-40B3-463C-BDA9-2D472639BECA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="win03" ID="{A3529491-CAA2-4D67-9364-B151049E4383}" ShortID="45736487">
+					<PropertyList>
+						<Property Name="IsVoice" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>300</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF622EDB-46BD-4226-B6C3-8F6C1EA323D7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB480AD2-1BAC-49CA-A403-0C957F88A688}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="win" ID="{594013AC-9101-47C4-8C65-A6064166B889}">
+							<Language>English(US)</Language>
+							<AudioFile>win.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="680253373"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="win" ID="{594013AC-9101-47C4-8C65-A6064166B889}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

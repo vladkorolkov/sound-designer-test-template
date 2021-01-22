@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AC330D17-943C-487E-8E82-14CF4AE3227C}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{AC330D17-943C-487E-8E82-14CF4AE3227C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="pcFootsteps" ID="{D02F3B71-A480-40AA-8903-F5BB72497562}">
+					<ChildrenList>
+						<Action Name="" ID="{8BFDF77C-E1B9-4757-AAA2-B0B5DF6F813B}" ShortID="433377922">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{22A09FF9-5723-4CF9-8634-E7C51B8D2B34}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="playerFootsteps" ID="{6B9AA019-5B86-4E6C-B20B-13276C3C1078}" WorkUnitID="{C82DC4F3-DD86-4BA6-A00C-A0C918FB7397}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="neonLamp" ID="{DC5812C4-5F40-4834-A6C4-F316220E06AA}">
+					<ChildrenList>
+						<Action Name="" ID="{967DA854-A9BD-43D1-B9FD-31E22A866DE2}" ShortID="207275984">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="neonLights" ID="{8589D0CF-B29F-4C3B-BC64-5ED75D70DF0E}" WorkUnitID="{C82DC4F3-DD86-4BA6-A00C-A0C918FB7397}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ambStreet" ID="{E3E583CF-6ECD-4934-8A7A-188AE0EDD951}">
+					<ChildrenList>
+						<Action Name="" ID="{B0052AFD-44C7-4808-B86E-1BB494768012}" ShortID="468904852">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambStreet" ID="{B067AF6C-D000-4F45-8DE7-431CC32BE2D2}" WorkUnitID="{C82DC4F3-DD86-4BA6-A00C-A0C918FB7397}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="wallaDoor" ID="{1CC8778C-B372-457F-A8D8-2CC48044D465}">
+					<ChildrenList>
+						<Action Name="" ID="{260E3829-6A1A-45EA-89B0-ED03073F1E68}" ShortID="733103906">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wallaDoor" ID="{D9AD7EF8-05E1-4EA5-A0E4-B5177625C154}" WorkUnitID="{C82DC4F3-DD86-4BA6-A00C-A0C918FB7397}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="jump" ID="{C7E4853B-97CF-4A71-8F92-12313896A652}">
+					<ChildrenList>
+						<Action Name="" ID="{3491BC21-D8DF-49E3-A98A-4CE1BF4B9642}" ShortID="790658891">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="jump" ID="{B63581F1-BFC9-4046-A587-6F1909B05445}" WorkUnitID="{C82DC4F3-DD86-4BA6-A00C-A0C918FB7397}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="land" ID="{B4BC806F-7F37-4558-AE4A-4504DA8304BD}">
+					<ChildrenList>
+						<Action Name="" ID="{CBA7306C-C2EC-44E9-B9CD-040693B0A637}" ShortID="517393188">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="land" ID="{D45A1074-37C6-401F-8613-53C80AB71EE6}" WorkUnitID="{C82DC4F3-DD86-4BA6-A00C-A0C918FB7397}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="win" ID="{83AE657A-D80C-402B-A5B0-3D0DC88CD08C}">
+					<ChildrenList>
+						<Action Name="" ID="{07A4F347-0BEF-4120-9200-0C963B7A071B}" ShortID="154400173">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="win01" ID="{46B17D9D-3570-4425-B3EA-2B27CD4D53A7}" WorkUnitID="{C82DC4F3-DD86-4BA6-A00C-A0C918FB7397}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="win2" ID="{BF9806A8-F1A9-4888-84CE-0469A6BAA8AB}">
+					<ChildrenList>
+						<Action Name="" ID="{8B4FDED0-6CBD-4FA0-A0D4-77C2E80F1F74}" ShortID="135374453">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="win02" ID="{0FC0440E-BF09-4256-86A0-8B6B9F197E0F}" WorkUnitID="{C82DC4F3-DD86-4BA6-A00C-A0C918FB7397}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="win3" ID="{55775822-CB98-4FFC-9DD8-B737C3F58905}">
+					<ChildrenList>
+						<Action Name="" ID="{7E96BD3D-8C06-4A28-8FD6-710B670EB2D9}" ShortID="1023926062">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="win03" ID="{A3529491-CAA2-4D67-9364-B151049E4383}" WorkUnitID="{C82DC4F3-DD86-4BA6-A00C-A0C918FB7397}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

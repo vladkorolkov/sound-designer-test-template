@@ -1,0 +1,34 @@
+Event	ID	Name			Wwise Object Path	Notes
+	35679331	neonLamp			\Default Work Unit\neonLamp	
+	97952267	pcFootsteps			\Default Work Unit\pcFootsteps	
+	674522502	land			\Default Work Unit\land	
+	805519418	ambStreet			\Default Work Unit\ambStreet	
+	979765101	win			\Default Work Unit\win	
+	1537061028	win3			\Default Work Unit\win3	
+	1537061029	win2			\Default Work Unit\win2	
+	1842143030	wallaDoor			\Default Work Unit\wallaDoor	
+	3833651337	jump			\Default Work Unit\jump	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	87913239	jump_02	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\jump_50D71D7B.wem		\Actor-Mixer Hierarchy\Default Work Unit\jump\jump_02		50906
+	102653792	ft_concrete-007	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\ft_concrete-007_0DBA454C.wem		\Actor-Mixer Hierarchy\Default Work Unit\playerFootsteps\ft_concrete-007		60544
+	203754262	jump_01	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\jump_B0DFA2A0.wem		\Actor-Mixer Hierarchy\Default Work Unit\jump\jump_01		51896
+	350158477	neonLights	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\neonLampBuzz_DB3BE7A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\neonLights		1518874
+	379375426	land-004	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\land-004_6232ABBD.wem		\Actor-Mixer Hierarchy\Default Work Unit\land\land-004		31276
+	437939480	wallaDoor	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\wallaDoor_D2B2FD59.wem		\Actor-Mixer Hierarchy\Default Work Unit\wallaDoor		23284928
+	500602211	jump	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\jump_BC252635.wem		\Actor-Mixer Hierarchy\Default Work Unit\jump\jump		53218
+	680253373	win01	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\win_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\win01		972880
+	680570568	ambStreet	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\ambStreet_624A7CE0.wem		\Actor-Mixer Hierarchy\Default Work Unit\ambStreet		21045412
+	684511553	ft_concrete-001	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\ft_concrete-001_38F3AB23.wem		\Actor-Mixer Hierarchy\Default Work Unit\playerFootsteps\ft_concrete-001		58372
+	712182687	ft_concrete-004	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\ft_concrete-004_7ECBBD96.wem		\Actor-Mixer Hierarchy\Default Work Unit\playerFootsteps\ft_concrete-004		86824
+	721362283	land-001	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\land-001_59B5EA92.wem		\Actor-Mixer Hierarchy\Default Work Unit\land\land-001		64276
+	751941393	land-003	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\land-003_B64F286B.wem		\Actor-Mixer Hierarchy\Default Work Unit\land\land-003		40656
+	810613393	ft_concrete-005	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\ft_concrete-005_08DDD80F.wem		\Actor-Mixer Hierarchy\Default Work Unit\playerFootsteps\ft_concrete-005		86580
+	878848099	land-002	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\land-002_32400503.wem		\Actor-Mixer Hierarchy\Default Work Unit\land\land-002		46068
+	880497147	land-005	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\land-005_90C7E36B.wem		\Actor-Mixer Hierarchy\Default Work Unit\land\land-005		38572
+	922239915	ft_concrete-002	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\ft_concrete-002_F5ACE8CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\playerFootsteps\ft_concrete-002		54060
+	940447910	jump_03	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\jump_B726707D.wem		\Actor-Mixer Hierarchy\Default Work Unit\jump\jump_03		52722
+	942353491	ft_concrete-008	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\ft_concrete-008_E4CED0EA.wem		\Actor-Mixer Hierarchy\Default Work Unit\playerFootsteps\ft_concrete-008		88220
+	972764235	ft_concrete-003	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\ft_concrete-003_1C62AF7A.wem		\Actor-Mixer Hierarchy\Default Work Unit\playerFootsteps\ft_concrete-003		86932
+	1057322099	ft_concrete-006	C:\Users\vladi\OneDrive\Documents\GitHub\sound-designer-test-template\sound-designer-test-template_WwiseProject\.cache\Mac\Voices\English(US)\ft_concrete-006_CDC7E7B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\playerFootsteps\ft_concrete-006		87996
+

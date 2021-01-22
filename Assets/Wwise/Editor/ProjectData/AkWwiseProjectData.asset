@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bbff93f8965bd94a9db95e3af053381, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: e18c2f036e884b43b3d77ea3acf7a796
+    GuidInternal: 
+    m_lastTime: -8585903012906439481
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: d20a48ebac1bca49a4030c957f88a688
+    GuidInternal: 
+    m_lastTime: -8585903012906479381
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 2b369636fb3b7741a3a5cb2167a4d9e3
+    GuidInternal: 
+    m_lastTime: -8585902925388797310
+    List:
+    - name: Main
+      guid: e815126dc8a73146a781b205b1f98a1a
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 170d33ac3c947e488e8214cf4ae3227c
+    GuidInternal: 
+    m_lastTime: -8585902925388837196
+    List:
+    - name: neonLamp
+      guid: c41258dc405f3448a6c4f316220e06aa
+      id: 35679331
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: neonLamp
+        ObjectType: 3
+      Path: Default Work Unit\neonLamp
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: pcFootsteps
+      guid: 713b2fd080a4aa408903f5bb72497562
+      id: 97952267
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: pcFootsteps
+        ObjectType: 3
+      Path: Default Work Unit\pcFootsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: d0548b6f60489a4297a959ccde059faf
+    GuidInternal: 
+    m_lastTime: -8585903012906549924
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: c0a966d6ef2cae4aa377637e34a25518
+    GuidInternal: 
+    m_lastTime: -8585903012906569626
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 0be25a0edf86b747aee6883aa44cdab9
+    GuidInternal: 
+    m_lastTime: -8585903012906559637
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: a48fe7286aa812469f9c603f92ae8301
+    GuidInternal: 
+    m_lastTime: -8585903012906499332
+    List: []
+  ExpandedItems:
+  - /sound-designer-test-template_WwiseProject
+  - /sound-designer-test-template_WwiseProject/Events
+  - /sound-designer-test-template_WwiseProject/Events/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

@@ -149,6 +149,7 @@ namespace KinematicCharacterController.Examples
             if (cameraPlanarDirection.sqrMagnitude == 0f)
             {
                 cameraPlanarDirection = Vector3.ProjectOnPlane(inputs.CameraRotation * Vector3.up, Motor.CharacterUp).normalized;
+                
             }
             Quaternion cameraPlanarRotation = Quaternion.LookRotation(cameraPlanarDirection, Motor.CharacterUp);
 
@@ -174,6 +175,7 @@ namespace KinematicCharacterController.Examples
                         {
                             _timeSinceJumpRequested = 0f;
                             _jumpRequested = true;
+                            AkSoundEngine.PostEvent("jump", gameObject);
                         }
 
                         // Crouching input
@@ -291,17 +293,25 @@ namespace KinematicCharacterController.Examples
                             float currentVelocityMagnitude = currentVelocity.magnitude;
 
                             Vector3 effectiveGroundNormal = Motor.GroundingStatus.GroundNormal;
+                            
+
+
                             if (currentVelocityMagnitude > 0f && Motor.GroundingStatus.SnappingPrevented)
                             {
                                 // Take the normal from where we're coming from
                                 Vector3 groundPointToCharacter = Motor.TransientPosition - Motor.GroundingStatus.GroundPoint;
+
+                                
+
                                 if (Vector3.Dot(currentVelocity, groundPointToCharacter) >= 0f)
                                 {
                                     effectiveGroundNormal = Motor.GroundingStatus.OuterGroundNormal;
+                                    
                                 }
                                 else
                                 {
                                     effectiveGroundNormal = Motor.GroundingStatus.InnerGroundNormal;
+                                    
                                 }
                             }
 
@@ -315,6 +325,7 @@ namespace KinematicCharacterController.Examples
 
                             // Smooth movement Velocity
                             currentVelocity = Vector3.Lerp(currentVelocity, targetMovementVelocity, 1f - Mathf.Exp(-StableMovementSharpness * deltaTime));
+                            
                         }
                         // Air movement
                         else
@@ -325,6 +336,7 @@ namespace KinematicCharacterController.Examples
                                 Vector3 addedVelocity = _moveInputVector * AirAccelerationSpeed * deltaTime;
 
                                 Vector3 currentVelocityOnInputsPlane = Vector3.ProjectOnPlane(currentVelocity, Motor.CharacterUp);
+                                
 
                                 // Limit air velocity from inputs
                                 if (currentVelocityOnInputsPlane.magnitude < MaxAirMoveSpeed)
@@ -493,10 +505,15 @@ namespace KinematicCharacterController.Examples
 
         public void OnGroundHit(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, ref HitStabilityReport hitStabilityReport)
         {
+          
+
         }
 
         public void OnMovementHit(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, ref HitStabilityReport hitStabilityReport)
         {
+
+            
+
         }
 
         public void AddVelocity(Vector3 velocity)
@@ -517,6 +534,7 @@ namespace KinematicCharacterController.Examples
 
         protected void OnLanded()
         {
+            AkSoundEngine.PostEvent("land", gameObject);
         }
 
         protected void OnLeaveStableGround()
@@ -525,6 +543,8 @@ namespace KinematicCharacterController.Examples
 
         public void OnDiscreteCollisionDetected(Collider hitCollider)
         {
+            
+
         }
     }
 }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3696362B-3BFB-4177-A3A5-CB2167A4D9E3}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{3696362B-3BFB-4177-A3A5-CB2167A4D9E3}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{6D1215E8-A7C8-4631-A781-B205B1F98A1A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="win" ID="{83AE657A-D80C-402B-A5B0-3D0DC88CD08C}" WorkUnitID="{AC330D17-943C-487E-8E82-14CF4AE3227C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="pcFootsteps" ID="{D02F3B71-A480-40AA-8903-F5BB72497562}" WorkUnitID="{AC330D17-943C-487E-8E82-14CF4AE3227C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="land" ID="{B4BC806F-7F37-4558-AE4A-4504DA8304BD}" WorkUnitID="{AC330D17-943C-487E-8E82-14CF4AE3227C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="wallaDoor" ID="{1CC8778C-B372-457F-A8D8-2CC48044D465}" WorkUnitID="{AC330D17-943C-487E-8E82-14CF4AE3227C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="neonLamp" ID="{DC5812C4-5F40-4834-A6C4-F316220E06AA}" WorkUnitID="{AC330D17-943C-487E-8E82-14CF4AE3227C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="win2" ID="{BF9806A8-F1A9-4888-84CE-0469A6BAA8AB}" WorkUnitID="{AC330D17-943C-487E-8E82-14CF4AE3227C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ambStreet" ID="{E3E583CF-6ECD-4934-8A7A-188AE0EDD951}" WorkUnitID="{AC330D17-943C-487E-8E82-14CF4AE3227C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="jump" ID="{C7E4853B-97CF-4A71-8F92-12313896A652}" WorkUnitID="{AC330D17-943C-487E-8E82-14CF4AE3227C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="wallaDoor" ID="{D9AD7EF8-05E1-4EA5-A0E4-B5177625C154}" WorkUnitID="{C82DC4F3-DD86-4BA6-A00C-A0C918FB7397}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="win3" ID="{55775822-CB98-4FFC-9DD8-B737C3F58905}" WorkUnitID="{AC330D17-943C-487E-8E82-14CF4AE3227C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
